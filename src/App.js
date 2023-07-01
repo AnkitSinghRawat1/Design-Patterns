@@ -3,6 +3,7 @@ import SocketService from "./SingletonDP";
 import ProxyPattern from "./ProxyPattern";
 import FactoryPattern from "./FactoryPattern";
 import ObserverPattern from "./ObserverPattern";
+import MixinPattern from "./MixinPattern";
 
 export function App() {
 
@@ -37,6 +38,11 @@ export function App() {
             <br></br>
             <hr></hr>
             <ObserverPattern />
+
+            <br></br>
+            <br></br>
+            <hr></hr>
+            <MixinPattern />
         </div>
     );
   }
