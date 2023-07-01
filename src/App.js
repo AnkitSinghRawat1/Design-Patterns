@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SocketService from "./SingletonDP";
+import ProxyPattern from "./ProxyPattern";
 
 export function App() {
 
@@ -14,14 +15,16 @@ export function App() {
     const [state, setState] = useState(0)
     return(
         <div>
-            <h4>We Are Using Socket IO here</h4>
-            <br></br>
-            <br></br>
+            <h4>1. We Are Using Socket IO here</h4>
             <br></br>
 
             <button onClick={()=> { setState(prev => prev+1)}}>
                 Change State
             </button>
+            <br></br>
+            <br></br>
+            <hr></hr>
+            <ProxyPattern />
         </div>
     );
   }
