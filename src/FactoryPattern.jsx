@@ -31,6 +31,7 @@ there is no chance to create an object with wrong key cox now factory method is 
 function FactoryPattern() {
   return (
     <div>
+        <h3>3. Factory Pattern</h3>
       {users?.map((user) => (
         <li>
           {user.getFullName()} and they can{" "}

@@ -16,7 +16,7 @@ export function App() {
     const [state, setState] = useState(0)
     return(
         <div>
-            <h4>1. We Are Using Socket IO here</h4>
+            <h3>1. Singleton Design Pattern (We Are Using Socket IO here)</h3>
             <br></br>
 
             <button onClick={()=> { setState(prev => prev+1)}}>
