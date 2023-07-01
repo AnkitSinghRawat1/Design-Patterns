@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SocketService from "./SingletonDP";
 import ProxyPattern from "./ProxyPattern";
+import FactoryPattern from "./FactoryPattern";
 
 export function App() {
 
@@ -25,6 +26,11 @@ export function App() {
             <br></br>
             <hr></hr>
             <ProxyPattern />
+
+            <br></br>
+            <br></br>
+            <hr></hr>
+            <FactoryPattern />
         </div>
     );
   }
